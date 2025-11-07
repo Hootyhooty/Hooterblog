@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Itipat Polkhankosit - Resume</title>
+<style>
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+
+  body {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fa;
+  }
+
+  .resume {
+  background: white;
+  width: 700px; /* was 750px */
+  margin: 10px auto;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+
+  .top-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #0d3b66;
+    padding-bottom: 15px;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .header-info {
+    flex: 1;
+    margin-left: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+    margin: 0;
+    color: #0d3b66;
+  }
+
+  h2 {
+    margin: 5px 0 10px;
+    font-size: 18px;
+    color: #666;
+    font-weight: 500;
+  }
+
+  .contact {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .section {
+    margin-top: 15px;
+  }
+
+  .section-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0d3b66;
+    border-bottom: 2px solid #0d3b66;
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+
+  .skills, .languages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .skills.logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 per row */
+  gap: 14px 18px; /* vertical / horizontal spacing */
+  justify-items: center;
+  margin-top: 10px;
+}
+
+.skills.logos .skill-item {
+  text-align: center;
+}
+
+.skills.logos img {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+  margin-bottom: 4px;
+}
+
+.skills.logos p {
+  margin: 0;
+  font-size: 11px;
+  color: #0d3b66;
+  font-weight: 500;
+}
+
+
+  .lang-item {
+    font-size: 13px;
+  }
+
+  .dots {
+    color: #0d3b66;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  button {
+    display: block;
+    margin: 20px auto;
+    background: #0d3b66;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #145a99;
+  }
+
+@media print {
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+  body {
+    background: white;
+    font-size: 11px; /* slightly smaller for print */
+  }
+  .resume {
+    width: 100%;
+    padding: 0;
+    box-shadow: none;
+  }
+  button {
+    display: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="resume">
+  <div class="top-section">
+    <img src="assets/me.jpg" alt="me" class="profile-photo">
+    <div class="header-info">
+      <h1>Itipat Polkhankosit</h1>
+      <h2>Web Developer</h2>
+      <div class="contact">
+        <p>📞 081-453-2519</p>
+        <p>📧 oleapoffaitho@gmail.com</p>
+        <p>🌐 www.reallygreatsite.com</p>
+        <p>💻 <a href="https://github.com/Hootyhooty" target="_blank">https://github.com/Hootyhooty</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">About Me</div>
+    <p style="font-size: 13px;">                I'm a passionate hobbyist developer who loves learning new things and constantly improving my skills.
+        I'm seeking an entry-level developer position where I can grow professionally, contribute to a team, and take on real-world challenges.
+        I'm a quick learner, creative thinker, and problem solver with strong attention to detail.
+        I'm self-motivated, team-oriented, and always eager to explore new technologies and ideas.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Experience</div>
+    <p style="font-size: 13px;">Founded and operate <strong>Welding Supplies</strong>, a distribution business specializing in welding equipment and materials. Oversee all aspects of daily operations, including inventory management, customer relations, and vendor coordination.
+        Provide products and services to construction sites and small to medium-sized contractors, ensuring reliable supply, competitive pricing, and exceptional customer support.</p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">My Skills</div>
+    <div class="skills logos">
+      <div class="skill-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+        <p>HTML5</p>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+        <p>CSS3</p>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        <p>JS</p>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+        <p>React</p>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+        <p>Node.js</p>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+        <p>Python</p>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+        <p>MongoDB</p>
+      </div>
+      <div class="skill-item">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+        <p>SQL</p>
+      </div>
+      <div class="skill-item">
+        <img src="../assets/excel.jpg" alt="Excel">
+        <p>Excel</p>
+      </div>
+      <div class="skill-item">
+        <img src="../assets/canva.jpg" alt="Canva">
+        <p>Canva</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Languages</div>
+    <div class="languages">
+      <div class="lang-item">English <span class="dots">●●●●●●</span></div>
+      <div class="lang-item">Thai <span class="dots">●●●●●●</span></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Projects</div>
+    <p><strong>Personal Portfolio Websites:</strong><br>
+        <a href="https://lostnfound-pgdj.onrender.com" target="_blank">https://lostnfound-pgdj.onrender.com</a><br>
+        <a href="https://hootertours.onrender.com/" target="_blank">https://hootertours.onrender.com</a>
+      </p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Education</div>
+    <p style="font-size: 13px;">
+        Bachelor’s Degree in Electrical Engineering, Chulalongkorn University<br>
+        Bachelor’s Degree in Mechatronic Engineering, Assumption University
+      </p>
+  </div>
+</div>
+
+<button onclick="window.print()">🖨️ Print Resume</button>
+
+<script>
+  // Auto-open print dialog shortly after load
+  window.addEventListener('load', function () {
+    setTimeout(function(){ window.print(); }, 300);
+  });
+</script>
+
+</body>
+</html>
