@@ -29,7 +29,7 @@ function Projects() {
                         Feel free to check out the website at <a href="https://lostnfound-pgdj.onrender.com">Lost and Found</a>
                       </p>
                     </div>
-                    <a href="https://lostnfound-pgdj.onrender.com"><img className="img-fluid" src="../assets/lostnfound.png" alt="Project 1" /></a>
+                    <a href="https://lostnfound-pgdj.onrender.com"><img className="img-fluid" src="./assets/lostnfound.png" alt="Project 1" /></a>
                   </div>
                 </div>
               </div>
@@ -49,7 +49,7 @@ function Projects() {
                         Feel free to check out the website at <a href="https://hootertours.onrender.com/">HooterTours</a>
                       </p>
                     </div>
-                    <a href="https://hootertours.onrender.com/"><img className="img-fluid" src="../assets/tour.png" alt="Project 2" /></a>
+                    <a href="https://hootertours.onrender.com/"><img className="img-fluid" src="./assets/tour.png" alt="Project 2" /></a>
                   </div>
                 </div>
               </div>

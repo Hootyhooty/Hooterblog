@@ -32,7 +32,7 @@ function Home() {
               {/* Header profile picture */}
               <div className="d-flex justify-content-center mt-5 mt-xxl-0">
                 <div className="profile bg-gradient-primary-to-secondary">
-                  <img className="profile-img" src="/assets/profile.png" alt="Profile" />
+                  <img className="profile-img" src="./assets/profile.png" alt="Profile" />
                   
                 </div>
               </div>

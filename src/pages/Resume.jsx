@@ -17,7 +17,7 @@ function Resume() {
               <div className="d-flex align-items-center justify-content-between mb-4">
                 <h2 className="text-primary fw-bolder mb-0">Experience</h2>
                 {/* Download resume button */}
-                <a className="btn btn-primary px-4 py-3" href="/profile.html" target="_blank" rel="noopener">
+                <a className="btn btn-primary px-4 py-3" href="./profile.html" target="_blank" rel="noopener">
                   <div className="d-inline-block bi bi-download me-2"></div>
                   Download Resume
                 </a>
@@ -167,10 +167,10 @@ function Resume() {
                     </div>
                     <div className="row row-cols-1 row-cols-md-3 mb-4">
                       <div className="col mb-4 mb-md-0">
-                        <a href="https://lostnfound-pgdj.onrender.com"><img className="img-fluid" src="../assets/lostnfound.png" alt="Project 1" /></a>
+                        <a href="https://lostnfound-pgdj.onrender.com"><img className="img-fluid" src="./assets/lostnfound.png" alt="Project 1" /></a>
                       </div>
                       <div className="col mb-4 mb-md-0">
-                        <a href="https://hootertours.onrender.com/"><img className="img-fluid" src="../assets/tour.png" alt="Project 2" /></a>
+                        <a href="https://hootertours.onrender.com/"><img className="img-fluid" src="./assets/tour.png" alt="Project 2" /></a>
                       </div>
                     </div>
                   </div>
