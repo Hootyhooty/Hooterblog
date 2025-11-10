@@ -17,7 +17,7 @@ function Resume() {
               <div className="d-flex align-items-center justify-content-between mb-4">
                 <h2 className="text-primary fw-bolder mb-0">Experience</h2>
                 {/* Download resume button */}
-                <a className="btn btn-primary px-4 py-3" href="./profile.html" target="_blank" rel="noopener">
+                <a className="btn btn-primary px-4 py-3" href="./assets/profile.html" target="_blank" rel="noopener">
                   <div className="d-inline-block bi bi-download me-2"></div>
                   Download Resume
                 </a>
